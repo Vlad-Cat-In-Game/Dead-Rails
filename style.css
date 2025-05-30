@@ -48,3 +48,28 @@ a {
     margin: 70px;
     color: white;
 }
+body {
+  animation: call 15s linear infinite;
+}
+
+@keyframes call {
+  0% {
+    background-color: rgb(70, 37, 0);
+  }
+  25% {
+    background-color: rgb(165, 89, 1);
+  }
+  50% {
+    background-color: rgb(255, 136, 0);
+  }
+  75% {
+    background-color: rgb(255, 125, 38);
+  }
+  100% {
+    background-color: rgb(70, 37, 0);
+  }
+}
+.container {
+  background-color: rgb(189, 235, 23);
+  border-radius: 15px;
+}
