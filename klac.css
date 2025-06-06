@@ -23,3 +23,10 @@ body {
   background-color: rgb(189, 235, 23);
   border-radius: 15px;
 }
+body {
+  text-align: center;
+}
+
+p {
+    font-size: 25px;
+}
