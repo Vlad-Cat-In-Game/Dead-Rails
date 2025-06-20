@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+body {
+  animation: call 10s linear infinite;
+}
+
+@keyframes call {
+  0% {
+    background-color: rgb(255, 0, 0);
+  }
+  25% {
+    background-color: rgb(187, 255, 0);
+  }
+  50% {
+    background-color: rgb(255, 217, 0);
+  }
+  75% {
+    background-color: rgb(255, 196, 2);
+  }
+  100% {
+    background-color: rgb(255, 0, 0);
+  }
+}
