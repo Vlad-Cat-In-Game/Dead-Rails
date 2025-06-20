@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Ewert&family=Great+Vibes&display=swap");
+img {
+  border-radius: 15px;
+  width: 300px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+body {
+  margin: 0;
+  background-color: chocolate;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.karta {
+  background-color: rgb(163, 88, 35);
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+p {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+h1 {
+  font-family: "Ewert", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+h3 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+a {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: white;
+}
+
+.osnova_img {
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.glavniy_div {
+    background-color: rgb(163, 88, 35);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0%;
+    margin-left: 0px;
+  }
+
+  .osnavaaaa {
+    width: 100%;
+  }
+
+  .flex_conteiner {
+    display: flex;
+margin-top: 30px;
+    width:100%;
+    background-color: chocolate;
+    justify-content: space-around;
+  }
+
+  .karta:hover{
+    box-shadow: 20px 10px 10px orange;
+    position: relative;
+    right:12px;
+    bottom: 12px;
+  }
+
+  
